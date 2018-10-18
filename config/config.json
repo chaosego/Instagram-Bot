@@ -1,0 +1,40 @@
+{
+    "username": "growfast8",
+    "password": "7014379115",
+    "doUnfollows": true,
+    "noOfUnfollows": 4,
+    "unfollowWaitTime": 2000,
+    "unfollowAfterDays": 1,
+    "settings": {
+        "headless": false
+    },
+    "exploreHashTags": true,
+    "hashTags": ["instagram", "instafreak", "nature"],
+    "topPosts": true,
+    "rows": 20,
+    "doLike": true,
+    "doFollow": true,
+    "timebetweenfollows": 0,
+    "exploreUsers": false,
+    "usersToFollow": ["velx02"],
+    "profileFollow": false,
+    "likeAllPics": true,
+    "selectors": {
+        "username_field": "input[class=\"_2hvTZ pexuQ zyHYP\"]",
+        "following_link": "#react-root > section > main > div > header > section > ul > li:nth-child(3) > a",
+        "unfollow_button": "button[class=\"oF4XW sqdOP  L3NKy   _8A5w5   \"]",
+        "unfollow_username": "div._7UhW9.xLCgt.MMzan._0PwGv.uL8Hv",
+        "confirm_unfollow_button": "button[class=\"aOOlW -Cab_   \"]",
+        "cancel_unfollow_button": "button.HoLwm",
+        "likeButton": "button[class=\"coreSpriteHeartOpen oF4XW dCJp8\"]",
+        "unLikeSpan": "span.glyphsSpriteHeart__filled__24__red_5",
+        "commentButton": "button[class=\"oF4XW dCJp8\"]",
+        "followButton": "button.oW_lN.oF4XW.sqdOP.yWX7d",
+        "alreadyFollowingButton": "button.aOOlW.-Cab_",
+        "post_username": "div.e1e1d > a",
+        "alreadyFollowButton": "button[class=\"oW_lN oF4XW sqdOP yWX7d _8A5w5 \"]",
+        "profilePageFollowButton": "button[class=\"BY3EC  oF4XW sqdOP  L3NKy      \"]",
+        "profile_unfollow_button": "span > button",
+        "errorPage": "body.p-error.dialog-404"
+    }
+}
