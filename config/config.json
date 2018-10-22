@@ -1,22 +1,22 @@
 {
-    "username": "",
-    "password": "",
+    "username": "lovishaggarwal96",
+    "password": "7014379115",
     "doUnfollows": true,
     "noOfUnfollows": 4,
     "unfollowWaitTime": 2000,
     "unfollowAfterDays": 1,
     "settings": {
-        "headless": false
+        "headless": true
     },
     "exploreHashTags": true,
-    "hashTags": ["instagram", "instafreak", "nature"],
+    "hashTags": ["instagram", "instafreak", "nature", "love", "midnight", "instasnap", "photooftheday", "amazing", "beauty", "explore", "travel", "music", "motivation"],
     "topPosts": true,
     "rows": 20,
     "doLike": true,
     "doFollow": true,
     "timebetweenfollows": 0,
     "exploreUsers": false,
-    "usersToFollow": ["velx02"],
+    "usersToFollow": [],
     "profileFollow": false,
     "likeAllPics": true,
     "selectors": {
