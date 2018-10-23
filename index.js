@@ -10,3 +10,5 @@ var unfollow = schedule.scheduleJob('0 0 0 * * *', function(){
 var exploreHashTags = schedule.scheduleJob('0 0 * * * *', function(){
   bot.exploreHashTags();
 });
+
+bot.exploreHashTags();
