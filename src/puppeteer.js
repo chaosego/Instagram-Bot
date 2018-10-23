@@ -124,7 +124,7 @@ let exploreHashTags = async function(){
         
         const page = await browser.newPage();
         page.setViewport({width: 1200, height: 764});
-
+        console.log("Opening Instagram");
         await page.goto('https://www.instagram.com/accounts/login/?source=auth_switcher');
         await page.waitFor(2500);
 
@@ -133,10 +133,11 @@ let exploreHashTags = async function(){
         await page.keyboard.press("Tab");
         await page.keyboard.type(cnf.password);
         await page.keyboard.press("Enter");
-
+        console.log("Logging in...");
         await page.waitForNavigation();
 
         if(cnf.exploreHashTags){
+            console.log("Exploring hashtags");
             for(var i = 0; i < newtags.length; i++){
                 await page.goto('https://www.instagram.com/explore/tags/' + newtags[i] + '/?hl=en');
                 if(cnf.topPosts){
