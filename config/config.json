@@ -6,7 +6,7 @@
     "unfollowWaitTime": 2000,
     "unfollowAfterDays": 1,
     "settings": {
-        "headless": false
+        "headless": true
     },
     "exploreHashTags": true,
     "hashTags": ["instagram", "instafreak", "nature", "love", "midnight", "instasnap", "photooftheday", "amazing", "beauty", "explore", "travel", "music", "motivation"],
