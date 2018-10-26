@@ -1,4 +1,4 @@
-const puppeteer = require('puppeteer-core');
+const puppeteer = require('puppeteer');
 let cnf = require('../config/config.json');
 var user = require('../src/user');
 var moment = require('moment');
